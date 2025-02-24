@@ -20,3 +20,5 @@ Raw data can be downloaded from the following publically-available sources:
 1. Coupled Model Intercomparison Project phase 6 (CMIP6). Historical and SSP5-8.5 simulations. Models: ACCESS-CM2, ACCESS-ESM1-5, CanESM5, IPSL-CM6A, MIROC6, MRO-ESM2-0. Variables: siextentn, siconc, sithick, areacello.
 2. National Snow and Ice Data Center (NSIDC) Sa Ice Index. Variable: sea ice extent, northern hemisphere, monthly. 
 3. Pan-Arctic Ice Ocean Modeling Assimilation System (PIOMAS). Variable: sea ice thickness, monthly.
+
+Files for the neural network are run using the Tensorflow/Keras library (Abadi et al., 2015). Explainable artificial intelligence methods applied to the neural network use the Innvestigate package. These files are contained in the folder 'neural network' and must be run in a virtual environment with Python Version 3.9.6 and Tensorflow Version 2.14.0.
